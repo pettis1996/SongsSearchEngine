@@ -18,9 +18,11 @@ The Songs Search Engine Application is made as part of the Information Retrieval
 Open the project through the pom.xml file. (IntelliJ IDE recommended)
 
 **Step 2**
+
 Setup the correct JDK and build paths, before building the project.
 
 **Step 3**
+
 Start the application by executing RunApplication.java.
 
 # 3. Getting Started
