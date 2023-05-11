@@ -28,6 +28,8 @@ Start the application by executing RunApplication.java.
 # 3. Getting Started
 
 **Step 1**
+
 Click 'OK' on the Welcome Message. An input dialog should appear asking for the root path directory.
 Copy and paste your root path directory of the project to the text field and click 'OK'.
+
 ***Note: If the path is right the Spotify icon should appear on the application, otherwise click on Settings from the menu bar and then click on Set Path Directory to re-enter the root path directory.***
