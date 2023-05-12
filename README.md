@@ -3,7 +3,7 @@
 > Author: Pettis Paraskevas-Christos [3136]
 <br>
 
-> Author: Vafeias Demetrios [3150]
+> Author: Vafeias Dimitrios [3150]
 
 # 1. Introduction
 
@@ -36,7 +36,7 @@ Copy and paste your root path directory of the project to the text field and cli
 
 `C:\Users\user\Documents\SongsSearchEngine`
 
-***IMPORTANT: PATH MUST ONLY INCLUDE ENGLISH LETTERS, NUMBERS, AND ( . , -, _ ) CHARACTERS***
+***IMPORTANT: PATH MUST ONLY INCLUDE ENGLISH LETTERS, NUMBERS, AND COMMON SPECIAL CHARACTERS***
 
 ***Note: If the path is right the Spotify icon should appear on the application, otherwise click on Settings from the menu bar and then click on Set Path Directory to re-enter the root path directory.***
 
