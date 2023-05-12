@@ -32,4 +32,24 @@ Start the application by executing RunApplication.java.
 Click 'OK' on the Welcome Message. An input dialog should appear asking for the root path directory.
 Copy and paste your root path directory of the project to the text field and click 'OK'.
 
+**Example Input**:
+
+`C:\Users\user\Documents\SongsSearchEngine`
+
+***IMPORTANT: PATH MUST ONLY INCLUDE ENGLISH LETTERS, NUMBERS, AND ( . , -, _ ) CHARACTERS***
+
 ***Note: If the path is right the Spotify icon should appear on the application, otherwise click on Settings from the menu bar and then click on Set Path Directory to re-enter the root path directory.***
+
+**Step 2**
+
+Once the main application window is opened, the following fields are in display:
+
+| **Field**           | **Description**                                                                                                                                   |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Search a query**  | Input keywords for searching here for searching inside the index.<br>Example queries: justing NOT bieber, ice cube, abba, love AND hate, amer*ca. |
+| **Search in field** | Input a field name ( artist, song, lyrics ) to get search results from searching in the specific field of the index.                              |
+| **Search**          | Click on the button after you input a query, and/or a field for searching inside the index using the input query, and/or field.                   |
+| **Add a filter**    | Input a field name ( artist, song, lyrics ) to add a sorting filter using that field.                                                             |
+| **Add filter**      | Apply the field filter and sort the results.                                                                                                      |
+| **History**         | Click to open the history tab, and view all the search queries with a counter for popularity included. To refresh, Hide and re-open the tab.      |
+| **Clear History**   | Click to clear all search history. To refresh, Hide and re-open the history tab.                                                                  |
