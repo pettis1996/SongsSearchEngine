@@ -11,6 +11,8 @@ The Songs Search Engine Application is made as part of the Information Retrieval
 
 # 2. Installation
 
+### For IntelliJ or eclipse IDE
+
 **Requirements**: Java JDK 17 or 20
 
 **Step 1**
@@ -25,12 +27,21 @@ Setup the correct JDK and build paths, before building the project.
 
 Start the application by executing RunApplication.java.
 
+### JAR Executable
+
+Find the SongsSearchEngine.jar file and run it.
+Use this command on the terminal for debugging, if something goes wrong.
+`java -jar SongsSearchEngine.jar`
+
+
 # 3. Getting Started
 
 **Step 1**
 
 Click 'OK' on the Welcome Message. An input dialog should appear asking for the root path directory.
 Copy and paste your root path directory of the project to the text field and click 'OK'.
+
+***Note: Path is important for loading the index!***
 
 **Example Input**:
 
@@ -53,3 +64,13 @@ Once the main application window is opened, the following fields are in display:
 | **Add filter**      | Apply the field filter and sort the results.                                                                                                      |
 | **History**         | Click to open the history tab, and view all the search queries with a counter for popularity included. To refresh, Hide and re-open the tab.      |
 | **Clear History**   | Click to clear all search history. To refresh, Hide and re-open the history tab.                                                                  |
+| **Previous 10**     | Click to load the previous 10 results of the query searched. To display the results click on the Search button.                                   |
+| **Next 10**         | Click to load the next 10 results of the query searched. To display the results click on the Search button.                                       |
+| Result Item on List | Click on any result item on the results list to reveal its content(id, artist, song name, lyrics)
+
+
+# Known Bugs
+
+1. Searching for a query and clicking on the first song from the top of the list, the app needs to be restarted because of NullPointerException.
+2. Searching for a query and clicking on any song besides the first song from the top of the list, to search for a new quesry the search button must be pressed twice to search for the new query.
+3. Setting an incorrect path will not result in an error message, but to enter a new path if the other is wrong, click on Settings from the menu bar and then Set Directory Path.
