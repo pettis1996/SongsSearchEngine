@@ -74,3 +74,4 @@ Once the main application window is opened, the following fields are in display:
 1. Searching for a query and clicking on the first song from the top of the list, the app needs to be restarted because of NullPointerException.
 2. Searching for a query and clicking on any song besides the first song from the top of the list, to search for a new quesry the search button must be pressed twice to search for the new query.
 3. Setting an incorrect path will not result in an error message, but to enter a new path if the other is wrong, click on Settings from the menu bar and then Set Directory Path.
+4. Displaying next 10 or previous 10, requires the press of the Search button. e.g. Search for a query, press next 10, press search and the results are displayed on the list.
